@@ -1,0 +1,145 @@
+.homepageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.main_title {
+  display: flex;
+  justify-content: left;
+}
+.main_title h1 {
+  padding: 20px;
+  margin: 0;
+}
+#logo {
+  height: 80px;
+  border-radius: 20px;
+}
+.mainLabel {
+  margin: 25px 0px 15px;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.formWrapper {
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: rgb(128, 48, 148);
+}
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinbtn {
+  background-color: rgb(128, 48, 148);
+  width: 100px;
+  margin-left: auto;
+}
+.joinbtn:hover,
+.leaveBtn:hover {
+  background-color: rgb(92, 34, 107);
+  color: white;
+}
+.createInfo {
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.createNewlink,
+footer a {
+  color: rgb(128, 48, 148);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(128, 48, 148);
+  transition: all 0.3s ease-in-out;
+}
+.createNewlink:hover,
+footer a:hover {
+  color: white;
+}
+/* -------EditorPage------  */
+.logo {
+  display: flex;
+  border-bottom: 1px solid rgb(84, 47, 94);
+}
+.log_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.logo h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+}
+.aside {
+  background-color: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+.clientList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+.editorWrap {
+  background-color: white;
+}
+.leaveBtn {
+  margin-top: 20px;
+  background: rgb(128, 48, 148);
+}
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 15px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
